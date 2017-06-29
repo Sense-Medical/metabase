@@ -143,9 +143,9 @@ export default class SelectPicker extends Component {
                                <div className="half" style={{ padding: "0.15em" }}>
                                    <button
                                        style={{ height: "95px" }}
-                                       className={cx("full rounded bordered border-purple text-centered text-bold", {
-                                               "text-purple bg-white": values[0] !== option.key,
-                                               "text-white bg-purple-light": values[0] === option.key
+                                       className={cx("full rounded bordered border-brand text-centered text-bold", {
+                                               "text-brand bg-white": values[0] !== option.key,
+                                               "text-white bg-brand-light": values[0] === option.key
                                            })}
                                        onClick={() => this.selectValue(option.key, true)}
                                    >

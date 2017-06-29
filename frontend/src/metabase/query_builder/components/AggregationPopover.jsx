@@ -243,7 +243,7 @@ export default class AggregationPopover extends Component {
                         </a>
                     </div>
                     <FieldList
-                        className={"text-green"}
+                        className={"text-brand"}
                         tableMetadata={tableMetadata}
                         field={fieldId}
                         fieldOptions={this.getAggregationFieldOptions(agg)}
@@ -256,7 +256,7 @@ export default class AggregationPopover extends Component {
         } else {
             return (
                 <AccordianList
-                    className="text-green"
+                    className="text-brand"
                     sections={sections}
                     onChange={this.onPickAggregation}
                     itemIsSelected={this.itemIsSelected.bind(this)}

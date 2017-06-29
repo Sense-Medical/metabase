@@ -23,7 +23,7 @@ export default class RevisionDiff extends Component {
             icon = <Icon name="add" className="text-error" size={16} />
         } else {
             // TODO: "minus" icon
-            icon = <Icon name="add" className="text-green" size={16} />
+            icon = <Icon name="add" className="text-brand" size={16} />
         }
 
         return (

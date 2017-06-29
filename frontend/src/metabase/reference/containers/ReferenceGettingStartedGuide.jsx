@@ -561,7 +561,7 @@ export default class ReferenceGettingStartedGuide extends Component {
                                     )}
                                     <Link
                                         className={cx(
-                                            { 'text-purple text-bold no-decoration text-underline-hover' : Object.keys(segments).length > 0 },
+                                            { 'text-brand text-bold no-decoration text-underline-hover' : Object.keys(segments).length > 0 },
                                             { 'Button Button--purple' : Object.keys(segments).length === 0 }
                                         )}
                                         to={'/reference/databases'}

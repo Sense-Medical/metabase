@@ -32,7 +32,7 @@ export default class RefreshWidget extends Component {
                     </Tooltip>
                 :
                     <Tooltip tooltip={"Refreshing in " + Math.floor(remaining / 60) + ":" + (remaining % 60 < 10 ? "0" : "") + Math.round(remaining % 60)}>
-                        <CountdownIcon width={18} height={18} className="text-green" percent={Math.min(0.95, (period - elapsed) / period)}/>
+                        <CountdownIcon width={18} height={18} className="text-brand" percent={Math.min(0.95, (period - elapsed) / period)}/>
                     </Tooltip>
                 }
                 targetOffsetY={10}

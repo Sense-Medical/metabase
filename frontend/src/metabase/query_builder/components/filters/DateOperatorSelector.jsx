@@ -49,7 +49,7 @@ export default class DateOperatorSelector extends Component {
         return (
             <div className="mx2">
                 <div
-                    className="flex align-center cursor-pointer text-purple-hover mb2"
+                    className="flex align-center cursor-pointer text-brand-hover mb2"
                     onClick={() => this.toggleExpanded()}
                 >
                     <h3>{operator && titleCase(operator)}</h3>
@@ -61,7 +61,7 @@ export default class DateOperatorSelector extends Component {
                     />
                 </div>
                 <ul
-                    className="text-purple"
+                    className="text-brand"
                     style={{
                         height: expanded ? 'auto' : 0,
                         overflow: 'hidden',

@@ -11,7 +11,7 @@ const GroupSummary = ({ groups, selectedGroups }) => {
     if (selectedGroups[adminGroup.id]) {
         return (
             <span>
-                <span className="text-purple">Admin</span>
+                <span className="text-brand">Admin</span>
                 { otherGroups.length > 0 && " and " }
                 { otherGroups.length > 0 && <span className="text-brand">{otherGroups.length + " other " + inflect("group", otherGroups.length)}</span> }
             </span>

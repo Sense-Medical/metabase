@@ -27,7 +27,7 @@ const BreakoutPopover = (
     }: Props
 ) => (
     <FieldList
-        className="text-green"
+        className="text-brand"
         tableMetadata={tableMetadata}
         field={breakout}
         fieldOptions={fieldOptions}

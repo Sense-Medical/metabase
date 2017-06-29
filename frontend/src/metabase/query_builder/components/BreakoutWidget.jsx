@@ -57,7 +57,7 @@ export default class BreakoutWidget extends Component {
                     onClose={this.close}
                 >
                     <FieldList
-                        className={"text-green"}
+                        className={"text-brand"}
                         tableMetadata={this.props.tableMetadata}
                         field={this.props.field}
                         fieldOptions={this.props.fieldOptions}

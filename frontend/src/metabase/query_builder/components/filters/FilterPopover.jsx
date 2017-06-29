@@ -246,7 +246,7 @@ export default class FilterPopover extends Component {
             return (
                 <div className="FilterPopover">
                     <FieldList
-                        className="text-purple"
+                        className="text-brand"
                         field={this.state.filter[1]}
                         fieldOptions={Query.getFieldOptions(this.props.tableMetadata.fields, true)}
                         customFieldOptions={this.props.customFields}

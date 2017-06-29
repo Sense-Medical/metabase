@@ -119,7 +119,7 @@ export default class SharingPane extends Component {
                         forceOriginalDimensions={false}
                     />
                     <div className="ml2 flex-full">
-                        <h3 className="text-green mb1">Public embed</h3>
+                        <h3 className="text-brand mb1">Public embed</h3>
                         <div className="mb1">Embed this {resourceType} in blog posts or web pages by copying and pasting this snippet:</div>
                         <CopyWidget value={iframeSource} />
                     </div>
@@ -135,7 +135,7 @@ export default class SharingPane extends Component {
                             forceOriginalDimensions={false}
                         />
                         <div className="ml2 flex-full">
-                            <h3 className="text-purple mb1">Embed this {resourceType} in an application</h3>
+                            <h3 className="text-brand mb1">Embed this {resourceType} in an application</h3>
                             <div className="">By integrating with your application server code, you can provide a secure stats {resourceType} limited to a specific user, customer, organization, etc.</div>
                         </div>
                     </div>

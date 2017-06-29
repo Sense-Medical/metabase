@@ -102,7 +102,7 @@ export const UnitPicker = ({ open, value, onChange, togglePicker, intervals, for
    <div>
        <div
            onClick={() => togglePicker()}
-           className="flex align-center cursor-pointer text-purple-hover mb2"
+           className="flex align-center cursor-pointer text-brand-hover mb2"
        >
            <h3>{pluralize(formatter(intervals) || 1, titleCase(value))}</h3>
            <Icon
@@ -113,7 +113,7 @@ export const UnitPicker = ({ open, value, onChange, togglePicker, intervals, for
            />
         </div>
         <ol
-            className="text-purple"
+            className="text-brand"
             style={{
                 maxHeight: open ? 'none': 0,
                 overflow: 'hidden'

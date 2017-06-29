@@ -12,7 +12,7 @@ type Props = {
 }
 
 const StepIndicators = ({
-    activeDotColor = normal.blue,
+    activeDotColor = "#00AD7D",
     currentStep = 0,
     dotSize = 8,
     goToStep,
@@ -30,7 +30,7 @@ const StepIndicators = ({
                         cursor: 'pointer',
                         marginLeft: 2,
                         marginRight: 2,
-                        backgroundColor: index + 1 === currentStep ? activeDotColor : '#00AD7D',
+                        backgroundColor: index + 1 === currentStep ? activeDotColor : '#CCCCCC',
                         transition: 'background 600ms ease-in'
                     }}
                     key={index}

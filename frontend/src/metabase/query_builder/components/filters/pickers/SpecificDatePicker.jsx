@@ -111,7 +111,7 @@ export default class SpecificDatePicker extends Component {
                                 }
                                 children={
                                     <Icon
-                                        className="text-purple-hover cursor-pointer"
+                                        className="text-brand-hover cursor-pointer"
                                         name='calendar'
                                         onClick={() => this.setState({ showCalendar: !this.state.showCalendar })}
                                     />
@@ -136,7 +136,7 @@ export default class SpecificDatePicker extends Component {
                     <div className={cx({'py2': calendar}, {'mb3': !calendar})}>
                         { hours == null || minutes == null ?
                             <div
-                                className="text-purple-hover cursor-pointer flex align-center"
+                                className="text-brand-hover cursor-pointer flex align-center"
                                 onClick={() => this.onChange(date, 12, 30) }
                             >
                                 <Icon
@@ -179,8 +179,8 @@ const HoursMinutes = ({ hours, minutes, onChangeHours, onChangeMinutes, clear })
             onChange={(value) => onChangeMinutes(value) }
         />
         <div className="flex align-center pl1">
-            <span className={cx("text-purple-hover mr1", { "text-purple": hours < 12, "cursor-pointer": hours >= 12 })} onClick={hours >= 12 ? () => onChangeHours(hours - 12) : null}>AM</span>
-            <span className={cx("text-purple-hover mr1", { "text-purple": hours >= 12, "cursor-pointer": hours < 12 })} onClick={hours < 12 ? () => onChangeHours(hours + 12) : null}>PM</span>
+            <span className={cx("text-brand-hover mr1", { "text-brand": hours < 12, "cursor-pointer": hours >= 12 })} onClick={hours >= 12 ? () => onChangeHours(hours - 12) : null}>AM</span>
+            <span className={cx("text-brand-hover mr1", { "text-brand": hours >= 12, "cursor-pointer": hours < 12 })} onClick={hours < 12 ? () => onChangeHours(hours + 12) : null}>PM</span>
         </div>
         <Icon
             className="text-grey-2 cursor-pointer text-grey-4-hover ml-auto"
