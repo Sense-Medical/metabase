@@ -324,8 +324,8 @@
 (defn- generate-aggregation-pipeline
   "Generate the aggregation pipeline. Returns a sequence of maps representing each stage."
   [query]
-  (loop [pipeline [], [f & more] [handle-filter
-                                  add-initial-projection
+  (loop [pipeline [], [f & more] [add-initial-projection
+                                  handle-filter
                                   handle-breakout+aggregation
                                   handle-order-by
                                   handle-fields

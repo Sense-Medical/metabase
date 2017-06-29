@@ -67,8 +67,8 @@
                                             :dbname "bad-db-name?connectTimeoutMS=50"}))
 
 (def ^:const ^:private native-query
-  "[{\"$match\": {\"_id\": {\"$eq\": 1}}},
-    {\"$project\": {\"_id\": \"$_id\"}},
+  "[{\"$project\": {\"_id\": \"$_id\"}},
+    {\"$match\": {\"_id\": {\"$eq\": 1}}},
     {\"$group\": {\"_id\": null, \"count\": {\"$sum\": 1}}},
     {\"$sort\": {\"_id\": 1}},
     {\"$project\": {\"_id\": false, \"count\": true}}]")
