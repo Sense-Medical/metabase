@@ -36,7 +36,7 @@
 }
 .bullet:before {
     content: "\2022";
-    color: #6FB0EB;
+    color: #00AD7D;
     position: absolute;
     top: 0;
     margin-top: 16px;
@@ -106,7 +106,7 @@
 
 .NavDropdown.open .NavDropdown-button,
 .NavDropdown .NavDropdown-content-layer {
-    background-color: #6FB0EB;
+    background-color: #00AD7D;
 }
 
 .NavDropdown .NavDropdown-content-layer {
