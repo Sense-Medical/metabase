@@ -7,7 +7,7 @@
   --primary-button-bg-color: #00AD7D;
   --warning-button-border-color: #E35050;
   --warning-button-bg-color: #E35050;
-  --selected-button-bg-color: #F4F6F8;
+  --selected-button-bg-color: #F7F7F7;
 
   --danger-button-bg-color: #EF8C8C;
   --success-button-color: var(--success-color);
@@ -18,13 +18,13 @@
   box-sizing: border-box;
   text-decoration: none;
   padding: 0.5rem 0.75rem;
-  background: #FBFCFD;
+  background: #FCFCFC;
   border: 1px solid #ddd;
   color: #444;
   cursor: pointer;
   text-decoration: none;
   font-weight: bold;
-  font-family: "Lato", sans-serif;
+  font-family: "-apple-system", "BlinkMacSystemFont", sans-serif;
   border-radius: var(--default-button-border-radius);
 }
 
@@ -95,6 +95,17 @@
     background-color: white;
     color: color(var(--base-grey) shade(30%));
     border-color: color(var(--base-grey) shade(30%));
+}
+
+.Button--brand {
+    color: white;
+    background-color: #00AD7D;
+    border: 1px solid #008761;
+}
+
+.Button--brand:hover {
+    background-color: #00AD7D;
+    border-color: #008761;
 }
 
 .Button--purple {

@@ -62,7 +62,7 @@ export default class RelativeDatePicker extends Component {
         return (
             <div className="px2">
                 <NumericInput
-                    className="input h3 mb2 border-purple"
+                    className="input h3 mb2 border-brand"
                     data-ui-tag="relative-date-input"
                     value={typeof intervals === "number" ? Math.abs(intervals) : intervals}
                     onChange={(value) =>

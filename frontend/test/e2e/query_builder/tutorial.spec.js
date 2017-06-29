@@ -52,7 +52,7 @@ describeE2E("tutorial", () => {
         await waitForElementAndClick(driver, "#FilterPopover .List-item:first-child>a");
 
         await waitForElementAndClick(driver, "input[data-ui-tag='relative-date-input']");
-        await waitForElementAndSendKeys(driver, "#FilterPopover input.border-purple", '10');
+        await waitForElementAndSendKeys(driver, "#FilterPopover input.border-brand", '10');
         await waitForElementAndClick(driver, ".Button[data-ui-tag='add-filter']:not(.disabled)");
 
         // select aggregations

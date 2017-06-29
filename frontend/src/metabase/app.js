@@ -51,11 +51,6 @@ function _init(reducers, getRoutes, callback) {
 
     store.dispatch(refreshSiteSettings());
 
-    // enable / disable GA based on opt-out of anonymous tracking
-    MetabaseSettings.on("anon_tracking_enabled", () => {
-        window['ga-disable-' + MetabaseSettings.get('ga_code')] = MetabaseSettings.isTrackingEnabled() ? null : true;
-    });
-
     if (callback) {
         callback(store);
     }

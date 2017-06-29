@@ -132,7 +132,7 @@ export default class TimeseriesFilterWidget extends Component {
                 />
                 <div className="p1">
                     <Button
-                        purple
+                        brand
                         className="full"
                         onClick={() => {
                             let query = Card.getQuery(card);

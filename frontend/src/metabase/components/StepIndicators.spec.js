@@ -18,7 +18,7 @@ describe('Step indicators', () => {
     it('should indicate the current step', () => {
         const wrapper = shallow(<StepIndicators steps={steps} currentStep={1} />)
 
-        expect(wrapper.find('li').get(0).props.style.backgroundColor).toEqual(normal.blue)
+        expect(wrapper.find('li').get(0).props.style.backgroundColor).toEqual(normal.brand)
     })
 
     describe('goToStep', () => {

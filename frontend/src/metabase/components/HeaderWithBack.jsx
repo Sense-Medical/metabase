@@ -10,7 +10,7 @@ const HeaderWithBack = ({ name, description, onBack }) =>
     <div className="flex align-center">
         { (onBack || window.history.length > 1) &&
             <Icon
-                className="cursor-pointer text-brand mr2 flex align-center circle p2 bg-light-blue bg-brand-hover text-white-hover transition-background transition-color"
+                className="cursor-pointer text-brand mr2 flex align-center circle p2 bg-light-brand bg-brand-hover text-white-hover transition-background transition-color"
                 name="backArrow"
                 onClick={onBack || DEFAULT_BACK}
             />

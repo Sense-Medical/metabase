@@ -67,7 +67,7 @@ export default class OperatorSelector extends Component {
                 { visibleOperators.map(o =>
                     <button
                         key={o.name}
-                        className={cx("Button Button-normal Button--medium mr1 mb1", { "Button--purple": o.name === operator })}
+                        className={cx("Button Button-normal Button--medium mr1 mb1", { "Button--brand": o.name === operator })}
                         onClick={() => this.props.onOperatorChange(o.name)}
                     >
                         {o.verboseName}

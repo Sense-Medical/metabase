@@ -380,7 +380,7 @@ export default class PeopleListingApp extends Component {
                             <tbody>
                                 { users.map(user =>
                                 <tr key={user.id}>
-                                    <td><span className="text-white inline-block"><UserAvatar background={(user.is_superuser) ? "bg-purple" : "bg-brand"} user={user} /></span> <span className="ml2 text-bold">{user.common_name}</span></td>
+                                    <td><span className="text-white inline-block"><UserAvatar background="bg-brand" user={user} /></span> <span className="ml2 text-bold">{user.common_name}</span></td>
                                     <td>
                                       {user.google_auth ?
                                         <Tooltip tooltip="Signed up via Google">

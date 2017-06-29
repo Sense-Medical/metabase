@@ -292,7 +292,7 @@ export default class FilterPopover extends Component {
                     <div className="FilterPopover-footer p1">
                         <button
                             data-ui-tag="add-filter"
-                            className={cx("Button Button--purple full", { "disabled": !this.isValid() })}
+                            className={cx("Button Button--brand full", { "disabled": !this.isValid() })}
                             onClick={() => this.commitFilter(this.state.filter)}
                         >
                             {!this.props.filter ? "Add filter" : "Update filter"}

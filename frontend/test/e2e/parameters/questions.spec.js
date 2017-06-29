@@ -82,7 +82,7 @@ describeE2E("parameters", () => {
             await d.select(".Icon-share").wait().click();
 
             // open application embedding panel
-            await d.select(":react(SharingPane) .text-purple:contains(Embed)").wait().click();
+            await d.select(":react(SharingPane) .text-brand:contains(Embed)").wait().click();
             // make the parameter editable
             await d.select(".AdminSelect-content:contains(Disabled)").wait().click();
             await d.select(":react(Option):contains(Editable)").wait().click();

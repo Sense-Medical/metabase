@@ -19,7 +19,7 @@
 }
 
 :local(.selected) {
-    color: var(--blue-color) !important;
+    color: var(--brand-color) !important;
 }
 
 :local(.actionButton) {
@@ -32,5 +32,5 @@
 }
 
 :local(.actionButton) .Icon-chevrondown {
-    color: #DEEAF1;
+    color: #F2F2F2;
 }

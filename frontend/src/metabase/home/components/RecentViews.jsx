@@ -45,7 +45,7 @@ export default class RecentViews extends Component {
                                     <Icon
                                         name={iconName}
                                         size={18}
-                                        style={{ color: iconName === 'dashboard' ? normal.purple : normal.blue }}
+                                        style={{ color: normal.brand }}
                                     />
                                     <Link to={Urls.modelToUrl(item.model, item.model_id)} data-metabase-event={"Recent Views;"+item.model+";"+item.cnt} className="ml1 flex-full link">
                                         {item.model_object.name}

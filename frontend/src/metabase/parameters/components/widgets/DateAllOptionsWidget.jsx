@@ -108,7 +108,7 @@ export default class DateAllOptionsWidget extends Component {
             />
             <div className="FilterPopover-footer p1">
                 <button
-                    className={cx("Button Button--purple full", {"disabled": !this.isValid()})}
+                    className={cx("Button Button--brand full", {"disabled": !this.isValid()})}
                     onClick={this.commitAndClose}
                 >
                     Update filter

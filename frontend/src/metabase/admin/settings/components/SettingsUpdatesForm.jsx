@@ -79,7 +79,7 @@ export default class SettingsUpdatesForm extends Component {
         } else {
             return (
                 <div>
-                    <div className="p2 bg-green bordered rounded border-green flex flex-row align-center justify-between">
+                    <div className="p2 bg-brand bordered rounded border-brand flex flex-row align-center justify-between">
                         <span className="text-white text-bold">Metabase {this.removeVersionPrefixIfNeeded(versionInfo.latest.version)} is available.  You're running {this.removeVersionPrefixIfNeeded(currentVersion)}</span>
                         <a data-metabase-event={"Updates Settings; Update link clicked; "+versionInfo.latest.version} className="Button Button--white Button--medium borderless" href="http://www.metabase.com/start" target="_blank">Update</a>
                     </div>

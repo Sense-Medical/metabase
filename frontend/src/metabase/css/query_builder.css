@@ -1,5 +1,5 @@
 :root {
-    --selection-color: #ccdff6;
+    --selection-color: #F5F5F5;
 }
 
 #react_qb_viz {
@@ -87,7 +87,7 @@
 }
 
 .Query-filter.selected {
-    border-color: var(--purple-light-color);
+    border-color: var(--brand-light-color);
 }
 
 .Filter-section {
@@ -409,20 +409,20 @@
 
 .Filter-section-field,
 .Filter-section-operator {
-    color: var(--purple-color);
+    color: var(--brand-color);
 }
 
 .Filter-section-field .QueryOption {
-    color: var(--purple-color);
+    color: var(--brand-color);
 }
 .Filter-section-operator .QueryOption {
-    color: var(--purple-color);
+    color: var(--brand-color);
     text-transform: lowercase;
 }
 .Filter-section-value .QueryOption {
     color: white;
-    background-color: var(--purple-color);
-    border: 1px solid color(var(--purple-color) shade(30%));
+    background-color: var(--brand-color);
+    border: 1px solid color(var(--brand-color) shade(30%));
     border-radius: 6px;
     padding: 0.5em;
     padding-top: 0.3em;
@@ -442,10 +442,10 @@
 
 .FilterPopover .ColumnarSelector-row--selected,
 .FilterPopover .PopoverHeader-item.selected {
-    color: var(--purple-color) !important;
+    color: var(--brand-color) !important;
 }
 .FilterPopover .ColumnarSelector-row:hover {
-    background-color: var(--purple-color) !important;
+    background-color: var(--brand-color) !important;
 }
 
 /* VIEW SECTION */
@@ -453,13 +453,13 @@
 .View-section-aggregation,
 .View-section-aggregation-target,
 .View-section-breakout {
-    color: var(--green-color);
+    color: var(--brand-color);
 }
 
 .View-section-aggregation.selected .QueryOption,
 .View-section-aggregation-target.selected .QueryOption,
 .View-section-breakout.selected .QueryOption {
-    color: var(--green-color);
+    color: var(--brand-color);
 }
 
 /* SORT/LIMIT SECTION */
@@ -491,7 +491,7 @@
     height: 38px;
     border-radius: 38px;
     background-color: white;
-    border: 1px solid #ccdff6;
+    border: 1px solid #F5F5F5;
 }
 
 .ChartType-popover {
@@ -500,7 +500,7 @@
 
 .ChartType--selected {
     color: white;
-    background-color: rgb(74, 144, 226);
+    background-color: #8F8F8F;
 }
 
 .ChartType--notSensible {
@@ -600,7 +600,7 @@
 
 .List-item--segment .Icon,
 .List-item--segment .List-item-title {
-  color: var(--purple-color);
+  color: var(--brand-color);
 }
 
 .List-item--customfield .Icon,
@@ -646,8 +646,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--purple-color);
-  border: 1px solid var(--purple-color);
+  background-color: var(--brand-color);
+  border: 1px solid var(--brand-color);
   transition: opacity .3s ease-out;
 }
 
@@ -668,8 +668,8 @@
   white-space: pre-wrap;
   white-space: -moz-pre-wrap;
   white-space: -o-pre-wrap;
-  background-color: #F9FBFC;
-  border: 1px solid #D5DBE3;
+  background-color: #FCFCFC;
+  border: 1px solid #E3E3E3;
   border-radius: 4px;
 }
 

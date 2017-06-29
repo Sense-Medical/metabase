@@ -1,8 +1,7 @@
 :root {
-    --title-color: #606E7B;
-    --subtitle-color: #AAB7C3;
-    --muted-color: #DEEAF1;
-    --blue-color: #2D86D4;
+    --title-color: #787878;
+    --subtitle-color: #C6C6C6;
+    --muted-color: #EEEEEE;
 }
 
 :local(.list) {
@@ -80,7 +79,7 @@
 }
 
 :local(.itemName):hover {
-    color: var(--blue-color);
+    color: var(--brand-color);
 }
 
 :local(.itemSubtitle) {
@@ -134,7 +133,7 @@
     visibility: visible;
 }
 :local(.icon):hover {
-    color: var(--blue-color);
+    color: var(--brand-color);
     transition: color .3s linear;
 }
 
@@ -150,7 +149,7 @@
     display: inline;
 }
 :local(.item.selected) :local(.itemCheckbox) {
-    color: var(--blue-color);
+    color: var(--brand-color);
 }
 
 /* ITEM ICON */
@@ -182,18 +181,18 @@
 /* TAG */
 :local(.open) :local(.tagIcon) {
     visibility: visible;
-    color: var(--blue-color);
+    color: var(--brand-color);
 }
 
 /* FAVORITE */
 :local(.item.favorite) :local(.favoriteIcon) {
     visibility: visible;
-    color: var(--blue-color);
+    color: var(--brand-color);
 }
 
 /* ARCHIVE */
 :local(.item.archived) :local(.archiveIcon) {
-    color: var(--blue-color);
+    color: var(--brand-color);
 }
 
 :local(.trigger) {

@@ -2,7 +2,7 @@
   --night-mode-color: rgba(255, 255, 255, 0.86);
 }
 .Dashboard {
-    background-color: #f9fbfc;
+    background-color: #FCFCFC;
 }
 
 .DashboardHeader {
@@ -65,8 +65,8 @@
 }
 
 .Dashboard.Dashboard--night .DashCard .Card {
-  background-color: rgb(54, 58, 61);
-  border: 1px solid rgb(46, 49, 52);
+  background-color: rgb(61, 61, 61);
+  border: 1px solid rgb(52, 52, 52);
 }
 
 .Dashboard.Dashboard--night .enable-dots-onhover .dc-tooltip circle.dot:hover,
@@ -121,7 +121,7 @@
 
 @keyframes fade-out-yellow {
     from {
-        background-color: rgba(255, 250, 243, 1.0);
+        background-color: rgba(243, 243, 243, 1.0);
     }
     to {
         background-color: rgba(255, 255, 255, 1.0);
@@ -181,7 +181,7 @@
 
 .Dash--editing .DashCard.dragging .Card,
 .Dash--editing .DashCard.resizing .Card {
-    background-color: #E5F1FB !important;
+    background-color: #FAFAFA !important;
     border: 1px solid var(--brand-color);
 }
 

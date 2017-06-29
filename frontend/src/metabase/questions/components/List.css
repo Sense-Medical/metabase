@@ -48,7 +48,7 @@
 }
 
 :local(.itemName):hover {
-    color: var(--blue-color);
+    color: var(--brand-color);
 }
 
 :local(.itemSubtitle) {
@@ -63,6 +63,6 @@
 /* TAG */
 :local(.open) :local(.tagIcon) {
     visibility: visible;
-    color: var(--blue-color);
+    color: var(--brand-color);
 }
 

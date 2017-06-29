@@ -10,32 +10,32 @@ import { DEBUG } from "metabase/lib/debug";
 const MetabaseAnalytics = {
     // track a pageview (a.k.a. route change)
     trackPageView: function(url: string) {
-        if (url) {
-            // scrub query builder urls to remove serialized json queries from path
-            url = (url.lastIndexOf('/q/', 0) === 0) ? '/q/' : url;
+        // if (url) {
+        //     // scrub query builder urls to remove serialized json queries from path
+        //     url = (url.lastIndexOf('/q/', 0) === 0) ? '/q/' : url;
 
-            const { tag } = MetabaseSettings.get('version');
+        //     const { tag } = MetabaseSettings.get('version');
 
-            // $FlowFixMe
-            ga('set', 'dimension1', tag);
-            ga('set', 'page', url);
-            ga('send', 'pageview', url);
-        }
+        //     // $FlowFixMe
+        //     ga('set', 'dimension1', tag);
+        //     ga('set', 'page', url);
+        //     ga('send', 'pageview', url);
+        // }
     },
 
     // track an event
     trackEvent: function(category: string, action?: string, label?: string, value?: number) {
-        const { tag } = MetabaseSettings.get('version');
+        // const { tag } = MetabaseSettings.get('version');
 
-        // category & action are required, rest are optional
-        if (category && action) {
-            // $FlowFixMe
-            ga('set', 'dimension1', tag);
-            ga('send', 'event', category, action, label, value);
-        }
-        if (DEBUG) {
-            console.log("trackEvent", { category, action, label, value });
-        }
+        // // category & action are required, rest are optional
+        // if (category && action) {
+        //     // $FlowFixMe
+        //     ga('set', 'dimension1', tag);
+        //     ga('send', 'event', category, action, label, value);
+        // }
+        // if (DEBUG) {
+        //     console.log("trackEvent", { category, action, label, value });
+        // }
     }
 }
 

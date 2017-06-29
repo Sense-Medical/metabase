@@ -14,7 +14,7 @@ const LeafletChoropleth = ({
     series,
     geoJson,
     minimalBounds = computeMinimalBounds(geoJson.features),
-    getColor = () => normal.blue,
+    getColor = () => normal.brand,
     onHoverFeature = () => {},
     onClickFeature = () => {},
 }) =>

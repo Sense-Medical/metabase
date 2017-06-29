@@ -450,17 +450,17 @@ export const isGuideEmpty = ({
     true;
 
 export const typeToLinkClass = {
-    dashboard: 'text-green',
+    dashboard: 'text-brand',
     metric: 'text-brand',
-    segment: 'text-purple',
-    table: 'text-purple'
+    segment: 'text-brand',
+    table: 'text-brand'
 };
 
 export const typeToBgClass = {
-    dashboard: 'bg-green',
+    dashboard: 'bg-brand',
     metric: 'bg-brand',
-    segment: 'bg-purple',
-    table: 'bg-purple'
+    segment: 'bg-brand',
+    table: 'bg-brand'
 };
 
 // little utility function to determine if we 'has' things, useful

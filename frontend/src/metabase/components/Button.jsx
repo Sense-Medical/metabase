@@ -15,7 +15,7 @@ const BUTTON_VARIANTS = [
     "warning",
     "cancel",
     "success",
-    "purple",
+    "brand",
     "borderless"
 ];
 
@@ -46,7 +46,7 @@ Button.propTypes = {
     primary: PropTypes.bool,
     warning: PropTypes.bool,
     cancel: PropTypes.bool,
-    purple: PropTypes.bool,
+    brand: PropTypes.bool,
 
     borderless: PropTypes.bool
 };

@@ -504,7 +504,7 @@ var Query = {
             if (AggregationClause.isMetric(aggregation)) {
                 let metric = _.findWhere(tableMetadata.metrics, { id: AggregationClause.getMetric(aggregation) });
                 let name = metric ? metric.name : "[Unknown Metric]";
-                return [options.jsx ? <span className="text-green text-bold">{name}</span> : name];
+                return [options.jsx ? <span className="text-brand text-bold">{name}</span> : name];
             }
             switch (aggregation[0]) {
                 case "rows":      return           ["Raw data"];
@@ -543,7 +543,7 @@ var Query = {
         } else if (filter[0] === "SEGMENT") {
             let segment = _.findWhere(tableMetadata.segments, { id: filter[1] });
             let name = segment ? segment.name : "[Unknown Segment]";
-            return options.jsx ? <span className="text-purple text-bold">{name}</span> : name;
+            return options.jsx ? <span className="text-brand text-bold">{name}</span> : name;
         } else {
             return Query.getFieldName(tableMetadata, filter[1], options);
         }

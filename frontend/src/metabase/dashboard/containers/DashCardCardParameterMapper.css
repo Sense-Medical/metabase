@@ -10,8 +10,8 @@
 }
 
 :local(.mapped) {
-    border-color: var(--green-color);
-    color: var(--green-color);
+    border-color: var(--brand-color);
+    color: var(--brand-color);
 }
 
 :local(.warn) {

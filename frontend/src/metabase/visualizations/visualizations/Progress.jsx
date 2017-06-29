@@ -47,7 +47,7 @@ export default class Progress extends Component {
             section: "Display",
             title: "Color",
             widget: "color",
-            default: normal.green
+            default: normal.brand
         },
     }
 

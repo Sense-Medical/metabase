@@ -75,7 +75,7 @@ export default class TextPicker extends Component {
             <div>
                 <div className="FilterInput px1 pt1 relative">
                     <AutosizeTextarea
-                        className={cx("input block full border-purple", { "border-error": hasInvalidValues })}
+                        className={cx("input block full border-brand", { "border-error": hasInvalidValues })}
                         type="text"
                         value={this.state.fieldString}
                         onChange={(e) => this.setValue(e.target.value)}

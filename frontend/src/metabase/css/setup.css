@@ -32,7 +32,7 @@
 
 .SetupStep.SetupStep--todo {
     color: var(--brand-color);
-    background-color: #EDF2F8;
+    background-color: #F7F7F7;
     border-style: dashed;
 }
 
@@ -62,8 +62,8 @@
 }
 
 .SetupStep.SetupStep--completed .SetupStep-indicator {
-    border-color: #9CC177;
-    background-color: #C8E1B0;
+    border-color: #C2C2C2;
+    background-color: #E0E0E0;
 }
 
 .SetupStep.SetupStep--completed .SetupStep-check {

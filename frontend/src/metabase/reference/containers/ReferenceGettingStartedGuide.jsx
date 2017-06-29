@@ -555,14 +555,14 @@ export default class ReferenceGettingStartedGuide extends Component {
                                 }
                                 <div>
                                     { Object.keys(segments).length > 0 && (
-                                        <Link className="Button Button--purple mr2" to={'/reference/segments'}>
+                                        <Link className="Button Button--brand mr2" to={'/reference/segments'}>
                                             See all segments
                                         </Link>
                                     )}
                                     <Link
                                         className={cx(
                                             { 'text-brand text-bold no-decoration text-underline-hover' : Object.keys(segments).length > 0 },
-                                            { 'Button Button--purple' : Object.keys(segments).length === 0 }
+                                            { 'Button Button--brand' : Object.keys(segments).length === 0 }
                                         )}
                                         to={'/reference/databases'}
                                     >
@@ -616,7 +616,7 @@ const GuideText = ({ children }) => // eslint-disable-line react/prop-types
     <p className="text-paragraph text-measure">{children}</p>
 
 const AdminInstructions = ({ children }) => // eslint-disable-line react/prop-types
-    <div className="bordered border-brand rounded p3 text-brand text-measure text-centered bg-light-blue">
+    <div className="bordered border-brand rounded p3 text-brand text-measure text-centered bg-light-brand">
         {children}
     </div>
 

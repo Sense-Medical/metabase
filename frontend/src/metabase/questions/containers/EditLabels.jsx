@@ -62,7 +62,7 @@ export default class EditLabels extends Component {
                         <div>In an upcoming release, Labels will be removed in favor of Collections.</div>
                     </div>
                 </div>
-                <LabelEditorForm onSubmit={saveLabel} initialValues={{ icon: colors.normal.blue, name: "" }} submitButtonText={"Create Label"} className="wrapper wrapper--trim"/>
+                <LabelEditorForm onSubmit={saveLabel} initialValues={{ icon: colors.normal.brand, name: "" }} submitButtonText={"Create Label"} className="wrapper wrapper--trim"/>
                 <LoadingAndErrorWrapper loading={labelsLoading} error={labelsError} noBackground noWrapper>
                 { () => labels.length > 0 ?
                     <div className="wrapper wrapper--trim">

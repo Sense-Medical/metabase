@@ -25,7 +25,7 @@
 .PopoverBody.PopoverBody--tooltip {
 	color: white;
 	font-weight: bold;
-	background-color: rgb(76,71,71);
+	background-color: rgb(71,71,71);
 	border: none;
 	pointer-events: none;
 }
@@ -120,7 +120,7 @@
 	border-bottom-color: #fff;
 }
 .tether-element-attached-top .PopoverBody--tooltip:after {
-	border-bottom-color: rgb(76,71,71);
+	border-bottom-color: rgb(71,71,71);
 }
 
 /* create a slightly larger arrow on the bottom for border purposes */
@@ -138,7 +138,7 @@
 	border-top-color: #fff;
 }
 .tether-element-attached-bottom .PopoverBody--tooltip:after {
-	border-top-color: rgb(76,71,71);
+	border-top-color: rgb(71,71,71);
 }
 
 /* if the tether element is attached right, move our arrows right */

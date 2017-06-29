@@ -67,7 +67,7 @@ class PredefinedRelativeDatePicker extends Component {
                         <span key={index} className={cx("inline-block half pb1", { "pr1": index % 2 === 0 })}>
                             <button
                                 key={index}
-                                className={cx("Button Button-normal Button--medium text-normal text-centered full", { "Button--purple": this.isSelectedShortcut(s) })}
+                                className={cx("Button Button-normal Button--medium text-normal text-centered full", { "Button--brand": this.isSelectedShortcut(s) })}
                                 onClick={() => this.onSetShortcut(s)}
                             >
                                 {s.name}
@@ -87,7 +87,7 @@ class PredefinedRelativeDatePicker extends Component {
                                 <button
                                     key={index}
                                     data-ui-tag={"relative-date-shortcut-" + sectionName.toLowerCase() + "-" + s.name.toLowerCase()}
-                                    className={cx("Button Button-normal Button--medium flex-full mb1", { "Button--purple": this.isSelectedShortcut(s), "mr1": index !== RELATIVE_SHORTCUTS[sectionName].length - 1 })}
+                                    className={cx("Button Button-normal Button--medium flex-full mb1", { "Button--brand": this.isSelectedShortcut(s), "mr1": index !== RELATIVE_SHORTCUTS[sectionName].length - 1 })}
                                     onClick={() => this.onSetShortcut(s)}
                                 >
                                     {s.name}

@@ -36,7 +36,7 @@ class DashboardListItem extends Component {
         const archivalButton =
             <Tooltip tooltip={archived ? "Unarchive" : "Archive"}>
                 <Icon
-                    className="flex cursor-pointer text-light-blue text-brand-hover ml2 archival-button"
+                    className="flex cursor-pointer text-light-brand text-brand-hover ml2 archival-button"
                     name={archived ? "unarchive" : "archive"}
                     size={21}
                     onClick={(e) => {
@@ -54,7 +54,7 @@ class DashboardListItem extends Component {
                 <Icon
                     className={cx(
                         "flex cursor-pointer ml2 favoriting-button",
-                        {"text-light-blue text-brand-hover": !favorite},
+                        {"text-light-brand text-brand-hover": !favorite},
                         {"text-gold": favorite}
                     )}
                     name={favorite ? "star" : "staroutline"}

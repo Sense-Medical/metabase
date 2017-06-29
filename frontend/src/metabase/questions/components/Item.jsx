@@ -30,7 +30,7 @@ const Item = ({
             <div className="relative flex ml1 mr2" style={{ width: ITEM_ICON_SIZE, height: ITEM_ICON_SIZE }}>
                 { icon &&
                     <Icon
-                        className={cx("text-light-blue absolute top left visible", { "hover-child--hidden": !!setItemSelected })}
+                        className={cx("text-light-brand absolute top left visible", { "hover-child--hidden": !!setItemSelected })}
                         name={icon}
                         size={ITEM_ICON_SIZE}
                     />
@@ -40,7 +40,7 @@ const Item = ({
                         className={cx(
                             "cursor-pointer absolute top left",
                             { "visible text-brand": selected },
-                            { "hover-child text-brand-hover text-light-blue transition-color": !selected }
+                            { "hover-child text-brand-hover text-light-brand transition-color": !selected }
                         )}
                         checked={selected}
                         onChange={(e) => setItemSelected({ [id]: e.target.checked })}
@@ -75,7 +75,7 @@ const Item = ({
                         triggerElement={
                             <Tooltip tooltip="Move to a collection">
                                 <Icon
-                                    className="text-light-blue cursor-pointer text-brand-hover transition-color mx2"
+                                    className="text-light-brand cursor-pointer text-brand-hover transition-color mx2"
                                     name="move"
                                     size={18}
                                 />
@@ -89,7 +89,7 @@ const Item = ({
                     </ModalWithTrigger>
                     <Tooltip tooltip={archived ? "Unarchive" : "Archive"}>
                         <Icon
-                            className="text-light-blue cursor-pointer text-brand-hover transition-color"
+                            className="text-light-brand cursor-pointer text-brand-hover transition-color"
                             name={ archived ? "unarchive" : "archive"}
                             onClick={() => setArchived(id, !archived, true)}
                             size={18}
@@ -134,7 +134,7 @@ const ItemBody = pure(({ entity, id, name, description, labels, favorite, collec
                     <Icon
                         className={cx(
                             "flex cursor-pointer",
-                            {"hover-child text-light-blue text-brand-hover": !favorite},
+                            {"hover-child text-light-brand text-brand-hover": !favorite},
                             {"visible text-gold": favorite}
                         )}
                         name={favorite ? "star" : "staroutline"}
@@ -145,7 +145,7 @@ const ItemBody = pure(({ entity, id, name, description, labels, favorite, collec
             }
             <Labels labels={labels} />
         </div>
-        <div className={cx({ 'text-slate': description }, { 'text-light-blue': !description })}>
+        <div className={cx({ 'text-slate': description }, { 'text-light-brand': !description })}>
             {description ? description : "No description yet"}
         </div>
     </div>

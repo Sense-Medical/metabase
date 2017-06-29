@@ -55,7 +55,7 @@ export default class ListFilterWidget extends Component {
                             }}
                         >
                             <Icon
-                                className="mr1 text-light-blue"
+                                className="mr1 text-light-brand"
                                 name={item.icon}
                             />
                             <h4 className="List-item-title">

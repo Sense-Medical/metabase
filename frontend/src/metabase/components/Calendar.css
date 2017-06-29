@@ -40,7 +40,7 @@
 }
 
 .Calendar-day:hover {
-    color: var(--purple-color);
+    color: var(--brand-color);
 }
 
 .Calendar-day-name {
@@ -50,12 +50,12 @@
 .Calendar-day--selected,
 .Calendar-day--selected-end {
     color: white !important;
-    background-color: var(--purple-color);
+    background-color: var(--brand-color);
     z-index: 1;
 }
 
 .Calendar-day--in-range {
-    background-color: #E3DAEB;
+    background-color: #EDEDED;
 }
 
 .Calendar-day--selected:after,
@@ -67,7 +67,7 @@
     bottom: -1px;
     left: -2px;
     right: -2px;
-    border: 2px solid color(var(--purple-color) shade(25%));
+    border: 2px solid color(var(--brand-color) shade(25%));
     border-radius: 4px;
     z-index: 2;
 }
@@ -81,13 +81,13 @@
 .Calendar-day--week-start.Calendar-day--in-range:after {
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
-    border-left-color: color(var(--purple-color) shade(25%));
+    border-left-color: color(var(--brand-color) shade(25%));
 }
 
 .Calendar-day--week-end.Calendar-day--in-range:after {
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
-    border-right-color: color(var(--purple-color) shade(25%));
+    border-right-color: color(var(--brand-color) shade(25%));
 }
 
 .circle-button {
@@ -106,8 +106,8 @@
 }
 
 .circle-button:hover {
-  color: var(--purple-color);
-  border-color: var(--purple-color);
+  color: var(--brand-color);
+  border-color: var(--brand-color);
 }
 
 .circle-button--top {
