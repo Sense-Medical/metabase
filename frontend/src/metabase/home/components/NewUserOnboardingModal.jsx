@@ -106,8 +106,7 @@ export default class NewUserOnboardingModal extends Component {
 const OnboardingImages = ({ currentStep }, { currentStep: object }) =>
     <div style={{
         position: 'relative',
-        backgroundColor: '#F5F9FE',
-        borderBottom: '1px solid #DCE1E4',
+        borderBottom: '1px solid #DCDCDC',
         height: 254,
         paddingTop: '3em',
         paddingBottom: '3em'
