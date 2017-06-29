@@ -7,7 +7,7 @@ type ColorFamily = { [name: ColorName]: Color };
 export const normal = {
     brand: '#00AD7D',
     blue: '#509EE3',
-    green: '#9CC177',
+    purple: '#A989C5',
     red: '#EF8C8C',
     yellow: '#f9d45c',
     orange: '#F1B556',
@@ -19,7 +19,7 @@ export const normal = {
 export const saturated = {
     brand: '#008761',
     blue: '#2D86D4',
-    green: '#84BB4C',
+    purple: '#A989C5',
     red: '#ED6E6E',
     yellow: '#F9CF48',
 }
@@ -27,7 +27,7 @@ export const saturated = {
 export const desaturated = {
     brand: '75D3B9',
     blue: '#72AFE5',
-    green: '#A8C987',
+    purple: '#A989C5',
     red: '#EEA5A5',
     yellow: '#F7D97B',
 }
