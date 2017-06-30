@@ -173,7 +173,7 @@ export class Dashboards extends Component {
                     <div className="mt2 flex-full flex align-center justify-center">
                         <EmptyState
                             message={<span>Put the charts and graphs you look at <br/>frequently in a single, handy place.</span>}
-                            image="/app/img/dashboard_illustration"
+                            image="app/img/dashboard_illustration"
                             action="Create a dashboard"
                             onActionClick={this.showCreateDashboard}
                             className="mt2"
@@ -204,7 +204,7 @@ export class Dashboards extends Component {
                                                 looking for.</p>
                                         </div>
                                     }
-                                    image="/app/img/empty_dashboard"
+                                    image="app/img/empty_dashboard"
                                     imageHeight="210px"
                                     action="Create a dashboard"
                                     imageClassName="mln2"

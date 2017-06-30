@@ -45,7 +45,7 @@ export const NoSavedQuestionsState = () =>
     <div className="flex-full flex align-center justify-center mb4">
         <EmptyState
             message={<span>Explore your data, create charts or maps, and save what you find.</span>}
-            image="/app/img/questions_illustration"
+            image="app/img/questions_illustration"
             action="Ask a question"
             link="/question"
         />

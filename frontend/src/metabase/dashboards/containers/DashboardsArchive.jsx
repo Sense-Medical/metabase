@@ -105,7 +105,7 @@ export class Dashboards extends Component {
                                                 looking for.</p>
                                         </div>
                                     }
-                                    image="/app/img/empty_dashboard"
+                                    image="app/img/empty_dashboard"
                                     imageClassName="mln2"
                                     smallDescription
                                 />
